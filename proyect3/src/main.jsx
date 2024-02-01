@@ -1,12 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
-import UserListView from './views/UserListView.jsx'
+import axios from "axios";
 import App from './components/App.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <UserListView />
     <App />
   </React.StrictMode>,
 )

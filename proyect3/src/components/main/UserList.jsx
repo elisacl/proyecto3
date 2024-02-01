@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './UserList.css'
 function UserList() {
     const [user, setUser] = useState('');
     const [lastName1, setLastName1] = useState('');
@@ -36,7 +37,7 @@ function UserList() {
     return (
         <div style={{ display: 'flex', flexDirection: 'row' }}>
             <div style={{ display: 'flex', flexDirection: 'column', marginRight: '20px' }}>
-                <h1>Lista xulisima</h1>
+                <h1>Administrador de listas</h1>
                 <label htmlFor="userName">Nombre:</label>
                 <input type="text" name="userName" value={user} onChange={handleNameChange} />
                 <label htmlFor="userLastName1">Primer apellido:</label>
@@ -47,7 +48,7 @@ function UserList() {
                 <input type="text" name="userNumber" value={number} onChange={handleNumberChange} />
                 <label htmlFor="userEmail">Email:</label>
                 <input type="text" name="userEmail" value={email} onChange={handleEmailChange} />
-                <button onClick={handleAddUserToList}>Añadir usuario a la lista</button>
+                <button onClick={handleAddUserToList}>Añadir usuario</button>
             </div>
             <div>
                 <table>
