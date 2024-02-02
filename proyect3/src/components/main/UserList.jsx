@@ -35,8 +35,8 @@ function UserList() {
 
     }
     return (
-        <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <div style={{ display: 'flex', flexDirection: 'column', marginRight: '20px' }}>
+        <div style={{ display: 'flex', flexDirection: 'row'}}>
+            <div style={{ display: 'flex', flexDirection: 'column', marginRight: '20px'}}>
                 <h1>Administrador de listas</h1>
                 <label htmlFor="userName">Nombre:</label>
                 <input type="text" name="userName" value={user} onChange={handleNameChange} />
