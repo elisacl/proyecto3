@@ -1,5 +1,9 @@
-.footerstuff{
+.footerstuff {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #5584AC;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
-    padding: 15px;
-}
+  }
