@@ -3,27 +3,26 @@
       {
         "id": 1,
         "userName": "Alejandro",
-        "userSurname": "Magno"
+        "userLastname1": "Magno",
+        "userLastname2": "Pérez",
+        "userAge": 25,
+        "userAddress": "Calle Alejandría"
       },
       {
         "id": 2,
         "userName": "Julio",
-        "userSurname": "Cesar"
+        "userLastname1": "Cesar",
+        "userLastname2": "López",
+        "userAge": 30,
+        "userAddress": "Calle Roma"
       },
       {
         "id": 3,
         "userName": "Cesar",
-        "userSurname": "Augusto"
-      },
-      {
-        "id": 4,
-        "userName": "Marco",
-        "userSurname": "Aurelio"
-      },
-    {
-        "id": 5,
-        "userName": "Tito",
-        "userSurname": "Flavio"
+        "userLastname1": "Augusto",
+        "userLastname2": "Gómez",
+        "userAge": 35,
+        "userAddress": "Calle Cayo Julio"
       }
     ]
   }
