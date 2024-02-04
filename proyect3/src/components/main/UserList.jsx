@@ -27,10 +27,16 @@ function UserList() {
     setEmail('');
   };
 
+  const handleDeleteUser = (index) => {
+    const updatedUserList = [...userList];
+    updatedUserList.splice(index, 1);
+    setUserList(updatedUserList);
+  };
+
   return (
     <div className="user-list-container">
       <div className="user-form">
-        <h1>Administrador de listas</h1>
+        <h3>Registro de datos personales</h3>
         <div className="form-field">
           <label htmlFor="userName">Nombre:</label>
           <input type="text" name="userName" value={user} onChange={handleNameChange} />
@@ -70,6 +76,12 @@ function UserList() {
                 {user.split(' ').map((data, index) => (
                   <td key={index}>{data}</td>
                 ))}
+                <td>
+                  <button
+                    onClick={() => handleDeleteUser(index)}
+                    style={{ backgroundColor: '#95D1CC', color: 'white', cursor: 'pointer'}}
+                  >Eliminar</button>
+                </td>
               </tr>
             ))}
           </tbody>

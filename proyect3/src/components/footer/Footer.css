@@ -5,5 +5,9 @@
     background-color: #5584AC;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
+
+.footerstuff h4{
+  font-weight: lighter;
+}
