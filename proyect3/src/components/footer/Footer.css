@@ -1,13 +1,19 @@
 .footerstuff {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #5584AC;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5584AC;
+  padding: 20px;
   }
 
 .footerstuff h4{
   font-weight: lighter;
+}
+
+@media screen and (max-width: 431px) {
+  .footerstuff {
+      width: 90%;
+      height: auto;
+      margin-top: 932px;
+  }
 }
