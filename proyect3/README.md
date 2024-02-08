@@ -1,6 +1,5 @@
 # proyect3
 # *Generador de Lista de alumnos* del Instituto Tencológico Santa Tecla 
-![Logo](.\images\logo.png)
 # 
 ## Proyecto 3
 #
